@@ -53,11 +53,17 @@ width: 10rem;
 }
 
 /* Projects */
-
 .project-image {
   width: 45%;
 }
 
 .project-text {
   width: 55%;
+}
+
+
+/* Dark Mode */
+body[data-theme="light"] {
+  background-color: #FEFE;
+  color: #111111;
 }

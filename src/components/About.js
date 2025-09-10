@@ -19,7 +19,7 @@ export default function About() {
           <button
             className={`px-6 py-2 rounded-md font-medium transition ${activeTab === "experience"
               ? "bg-white border-primary text-primary hover:bg-gray-300"
-              : "bg-primary border border-border text-white"
+              : "bg-primary border border-border"
               }`}
             onClick={() => setActiveTab("experience")}
           >
@@ -28,7 +28,7 @@ export default function About() {
           <button
             className={`px-6 py-2 rounded-md font-medium transition ${activeTab === "education"
               ? "bg-white border-primary text-primary hover:bg-gray-300"
-              : "bg-primary border border-border text-white"
+              : "bg-primary border border-border "
               }`}
             onClick={() => setActiveTab("education")}
           >
@@ -47,8 +47,8 @@ export default function About() {
                 </div>
                 <div className="about-text-content max-md:w-full">
                   <h3 className="font-semibold text-xl">UI/UX Engineer @ YouSource Inc.</h3>
-                  <p className="text-white mb-4">Oct 2021 – Apr 2023</p>
-                  <ul className="list-disc ml-5 text-white space-y-1">
+                  <p className=" mb-4">Oct 2021 – Apr 2023</p>
+                  <ul className="list-disc ml-5  space-y-1">
                     <li>Developed and maintained UI components, translating designs into functional code.</li>
                     <li>Created interactive prototypes and sustained multiple projects in an agile environment.</li>
                     <li>Led debugging and quality assurance for UI consistency across web and app platforms.</li>
@@ -63,8 +63,8 @@ export default function About() {
                 </div>
                 <div className="about-text-content max-md:w-full">
                   <h3 className="font-semibold text-xl">Jr. UI/UX Designer @ Xpress Super App</h3>
-                  <p className="text-white mb-4">Aug 2023 – Jul 2024</p>
-                  <ul className="list-disc ml-5 text-white space-y-1">
+                  <p className=" mb-4">Aug 2023 – Jul 2024</p>
+                  <ul className="list-disc ml-5  space-y-1">
                     <li>Led the design for the Xpress Drivers Loyalty Program and contributed to the Xpress Super App design system.</li>
                     <li>Designed mobile apps, websites, and admin systems using Adobe XD and Figma.</li>
                     <li>Developed a CMS website using Webflow and built interactive prototypes from wireframes and mockups.</li>
@@ -79,8 +79,8 @@ export default function About() {
                 </div>
                 <div className="about-text-content max-md:w-full">
                   <h3 className="font-semibold text-xl">Jr. Frontend Developer @ GiantFocal</h3>
-                  <p className="text-white mb-4">Jul 2024 – Present</p>
-                  <ul className="list-disc ml-5 text-white space-y-1">
+                  <p className=" mb-4">Jul 2024 – Present</p>
+                  <ul className="list-disc ml-5  space-y-1">
                     <li>Built and customized responsive themes for clients on HubSpot CMS.</li>
                     <li>Developed reusable components using HTML, Tailwind CSS, JavaScript, and HUBL.</li>
                     <li>Migrated an existing website to a custom HubSpot theme, improving integration and performance.</li>
@@ -99,8 +99,8 @@ export default function About() {
                 </div>
                 <div className="about-text-content max-md:w-full">
                   <h3 className="font-semibold text-xl">Mapua University</h3>
-                  <p className="text-white mb-4">July 2016 – Jun 2023</p>
-                  <ul className="list-disc ml-5 text-white space-y-1">
+                  <p className=" mb-4">July 2016 – Jun 2023</p>
+                  <ul className="list-disc ml-5  space-y-1">
                     <li>B.S. in Information Technology</li>
                     <li>Graduated June 2023 supposedly should be 2021 (Due to pandemic)</li>
                   </ul>
@@ -115,8 +115,8 @@ export default function About() {
                   </div>
                   <div className="about-text-content max-md:w-full">
                     <h3 className="font-semibold text-xl">Avion School</h3>
-                    <p className="text-white mb-4">Jul 2024 – Jan 2025</p>
-                    <ul className="list-disc ml-5 text-white space-y-1">
+                    <p className=" mb-4">Jul 2024 – Jan 2025</p>
+                    <ul className="list-disc ml-5  space-y-1">
                       <li>Full Stack Web Development</li>
                       <li>Completed an intensive Full-Stack Web Development bootcamp focused on HTML, CSS, JavaScript, React, and Ruby on Rails, structured to help students build portfolio-worthy projects and gain job-ready skills</li>
                       <li>Engaged in hands-on, real-world projects and pair programming, which fostered teamwork and practical development experience.</li>
@@ -128,7 +128,7 @@ export default function About() {
                     href={avionCert}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-primary border border-border text-white py-2 px-6 rounded-full font-semibold hover:bg-opacity-80 transition"
+                    className="bg-primary border border-border  py-2 px-6 rounded-full font-semibold hover:bg-opacity-80 transition"
                   >
                     View Certificate
                   </a>

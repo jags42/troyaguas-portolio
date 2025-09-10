@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import yousourceLogo from "../assets/yousource-logo.svg";
 import xpressLogo from "../assets/xpress-logo.svg";
 import giantfocalLogo from "../assets/gf-logo-white.webp";
-import avionCert from "../assets/avion-certificate.pdf";
 import mapuaLogo from "../assets/mapua.png";
 import avionLogo from "../assets/avion-logo.svg";
 

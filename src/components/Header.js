@@ -32,12 +32,10 @@ export default function Header() {
     <header className="fixed top-0 left-0 w-full bg-primary z-50">
       <nav className="flex justify-between items-center p-4 font-medium text-white">
         <div></div>
-        
+
         {/* Nav links */}
         <div className="flex gap-6">
-          <a href="#hero">Home</a>
           <a href="#about">About</a>
-          <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </div>

@@ -6,7 +6,6 @@ import giantfocalLogo from "../assets/gf-logo-white.webp";
 import avionCert from "../assets/avion-certificate.pdf";
 import mapuaLogo from "../assets/mapua.png";
 import avionLogo from "../assets/avion-logo.svg";
-import aguasResume from "../assets/aguas-resume.pdf";
 
 export default function About() {
   const [activeTab, setActiveTab] = useState("experience");

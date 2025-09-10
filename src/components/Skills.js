@@ -78,7 +78,6 @@ export default function Skills() {
 
   return (
     <section id="skills" className="py-20">
-        <h2 className="text-4xl font-bold mb-6 text-center">Skills</h2>
       <div className="w-full mx-auto text-center py-4 border border-border">
         <Slider {...settings}>
           {skills.map((skill, index) => (

@@ -37,12 +37,12 @@ export default function About() {
         </div>
 
         {/* Tab Content */}
-        <div className="text-left max-w-7xl mx-auto">
+        <div className="text-left max-w-6xl mx-auto">
           {activeTab === "experience" && (
             <ul className="flex flex-col gap-4 items-center justify-center ">
               {/* Yousource */}
               <li className="about-container p-4 border border-border rounded-lg flex gap-8 items-center max-md:flex-col">
-                <div className="about-image-content flex items-center justify-center">
+                <div className="about-image-content w-1/2 flex items-center justify-center">
                   <img src={yousourceLogo} alt="Yousource Logo" className="max-h-full max-w-full" />
                 </div>
                 <div className="about-text-content max-md:w-full">
@@ -58,7 +58,7 @@ export default function About() {
 
               {/* Xpress */}
               <li className="about-container p-4 border border-border rounded-lg flex gap-8 items-center max-md:flex-col">
-                <div className="about-image-content flex items-center justify-center">
+                <div className="about-image-content w-1/2 flex items-center justify-center">
                   <img src={xpressLogo} alt="Xpress Logo" className="xpress-logo max-h-full max-w-full" />
                 </div>
                 <div className="about-text-content max-md:w-full">
@@ -74,7 +74,7 @@ export default function About() {
 
               {/* GiantFocal */}
               <li className="about-container p-4 border border-border rounded-lg flex gap-8 items-center max-md:flex-col">
-                <div className="about-image-content flex items-center justify-center">
+                <div className="about-image-content w-1/2 flex items-center justify-center">
                   <img src={giantfocalLogo} alt="GiantFocal Logo" className="max-h-full max-w-full" />
                 </div>
                 <div className="about-text-content max-md:w-full">
@@ -94,8 +94,8 @@ export default function About() {
             <ul className="flex flex-col gap-4 items-center justify-center ">
               {/* Yousource */}
               <li className="about-container p-4 border border-border rounded-lg flex gap-8 items-center max-md:flex-col">
-                <div className="about-image-content flex items-center justify-center">
-                  <img src={mapuaLogo} alt="Yousource Logo" className="max-h-full max-w-full" />
+                <div className="about-image-content w-1/2 flex items-center justify-center">
+                  <img src={mapuaLogo} alt="Yousource Logo" className=" mapua-logo max-h-full max-w-full" />
                 </div>
                 <div className="about-text-content max-md:w-full">
                   <h3 className="font-semibold text-xl">Mapua University</h3>
@@ -109,9 +109,9 @@ export default function About() {
 
               {/* Xpress */}
               <li className="about-container p-4 border border-border rounded-lg flex gap-8 items-center flex-col">
-                <div className="about-content flex gap-8 items-center max-md:flex-col">
-                  <div className="about-image-content flex items-center justify-center">
-                    <img src={avionLogo} alt="Xpress Logo" className="xpress-logo max-h-full max-w-full" />
+                <div className="about-content  flex gap-8 items-center max-md:flex-col">
+                  <div className="about-image-content w-1/2 flex items-center justify-center">
+                    <img src={avionLogo} alt="Xpress Logo" className="avion-logo max-h-full max-w-full" />
                   </div>
                   <div className="about-text-content max-md:w-full">
                     <h3 className="font-semibold text-xl">Avion School</h3>
@@ -122,16 +122,6 @@ export default function About() {
                       <li>Engaged in hands-on, real-world projects and pair programming, which fostered teamwork and practical development experience.</li>
                     </ul>
                   </div>
-                </div>
-                <div className="about-button flex w-full items-center justify-center">
-                  <a
-                    href={avionCert}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-primary border border-border  py-2 px-6 rounded-full font-semibold hover:bg-opacity-80 transition"
-                  >
-                    View Certificate
-                  </a>
                 </div>
               </li>
             </ul>

@@ -10,8 +10,8 @@ function App() {
     <div className="scroll-smooth font-sans">
       <Header />
       <Hero />
-      <About />
       <Skills />
+      <About />
       <Projects />
       <Contact />
     </div>

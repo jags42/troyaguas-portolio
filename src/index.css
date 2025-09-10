@@ -2,54 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   color: white;
-  background:#0c0e12;
+  background: #0c0e12;
   min-height: 100vh;
   scroll-behavior: smooth;
-  overflow:visible;
+  overflow: visible;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
-
 
 /* Slick Dots */
 .slick-dots {
   bottom: -60px !important;
 }
 .slick-dots li button:before {
-color: white !important;
+  color: white !important;
 }
 .slick-dots li.slick-active button:before {
   color: white !important;
 }
-.slick-dots li button:hover:before, .slick-dots li button:focus:before {
-     opacity: 1;
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  opacity: 1;
 }
 
+.hero-section {
+  padding-top: 18rem;
+}
+
+@media (max-width: 992px) {
+  .hero-section {
+    padding-top: 12rem;
+  }
+}
 
 /* About */
 .about-container {
-  max-width: 992px;
   width: 100%;
 }
-.about-image-content {
-width: 10rem;
-}
+
 .about-text-content {
   width: 80%;
 }
 .xpress-logo {
   width: 9rem;
+}
+
+.mapua-logo,
+.avion-logo {
+  width: 12rem;
 }
 
 /* Projects */
@@ -61,9 +68,8 @@ width: 10rem;
   width: 55%;
 }
 
-
 /* Dark Mode */
 body[data-theme="light"] {
-  background-color: #FEFE;
+  background-color: #fefe;
   color: #111111;
 }

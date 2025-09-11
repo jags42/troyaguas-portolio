@@ -82,7 +82,7 @@ export default function Skills() {
         <Slider {...settings}>
           {skills.map((skill, index) => (
             <div key={index} className="px-3">
-              <div className="bg-primary border-border border rounded-lg p-6 flex flex-col items-center justify-center">
+              <div className="bg-primary background-light border-border border rounded-lg p-6 flex flex-col items-center justify-center">
                 <img
                   src={skill.logo}
                   alt={skill.name}

@@ -12,9 +12,11 @@ body {
   scroll-behavior: smooth;
   overflow: visible;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.highlight-color {
+  color: #62eac3;
 }
 
 /* Slick Dots */
@@ -70,6 +72,22 @@ code {
 
 /* Dark Mode */
 body[data-theme="light"] {
-  background-color: #fefe;
+  background-color: #fff;
   color: #111111;
+}
+body[data-theme="light"] .background-light {
+  background-color: #fff;
+}
+body[data-theme="light"] .xpress-logo {
+ filter: invert(1) hue-rotate(180deg); /* undo */
+}
+body[data-theme="light"] .text-lightmode {
+ color: #111111;
+}
+.bg-cyan {
+  background-color: #62eac3;
+}
+
+.mode-toggle:hover {
+  border-color: #62eac3;
 }

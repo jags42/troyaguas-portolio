@@ -72,11 +72,11 @@ code {
 
 /* Dark Mode */
 body[data-theme="light"] {
-  background-color: #fff;
+  background-color: #EDEDED   ;
   color: #111111;
 }
 body[data-theme="light"] .background-light {
-  background-color: #fff;
+  background-color: #EDEDED;
 }
 body[data-theme="light"] .xpress-logo {
  filter: invert(1) hue-rotate(180deg); /* undo */

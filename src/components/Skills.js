@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import hubspotLogo from "../assets/hubspot-1.svg";
+import dudaLogo from "../assets/duda.jpg";
 
 export default function Skills() {
   const settings = {
@@ -72,6 +73,10 @@ export default function Skills() {
   {
      name: "HubSpot",
     logo: hubspotLogo,
+  },
+  {
+     name: "Duda",
+    logo: dudaLogo,
   },
 ];
 

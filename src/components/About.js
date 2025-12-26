@@ -6,6 +6,7 @@ import giantfocalLogo from "../assets/gf-logo-white.webp";
 import mapuaLogo from "../assets/mapua.png";
 import avionLogo from "../assets/avion-logo.svg";
 import giantfocalLogoDark from "../assets/giantfocal-dark.svg";
+import cognizantLogo from "../assets/cognizant-logo.png";
 
 export default function About() {
   const [activeTab, setActiveTab] = useState("experience");
@@ -135,7 +136,7 @@ export default function About() {
                   <h3 className="font-semibold text-xl">
                     Jr. Frontend Developer @ GiantFocal
                   </h3>
-                  <p className=" mb-4">Jul 2024 – Present</p>
+                  <p className=" mb-4">Jul 2024 – Sep 2025</p>
                   <ul className="list-disc ml-5  space-y-1">
                     <li>
                       Built and customized responsive themes for clients on
@@ -148,6 +149,34 @@ export default function About() {
                     <li>
                       Migrated an existing website to a custom HubSpot theme,
                       improving integration and performance.
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              {/* Cognizant */}
+              <li className="about-container p-4 border border-border rounded-lg flex gap-8 items-center max-md:flex-col">
+                <div className="about-image-content w-1/2 flex items-center justify-center">
+                  <img
+                    src={theme === "light" ? cognizantLogo : cognizantLogo}
+                    alt="GiantFocal Logo"
+                    className="cognizant-logo max-h-full w-2/4"
+                  />
+                </div>
+                <div className="about-text-content max-md:w-full">
+                  <h3 className="font-semibold text-xl">
+                    Web Developer @ Cognizant
+                  </h3>
+                  <p className=" mb-4">Oct 2025 – Present</p>
+                  <ul className="list-disc ml-5  space-y-1">
+                    <li>
+                      Worked with property management account through Cognizant as part of the Website Services team
+                    </li>
+                    <li>
+                      Provided ongoing website support and maintenance using the Duda platform, handling client requests such as content updates, image changes, and new page creation.
+                    </li>
+                    <li>
+                      Maintained and optimized property websites, ensuring accuracy, performance, and a positive user experience.
                     </li>
                   </ul>
                 </div>

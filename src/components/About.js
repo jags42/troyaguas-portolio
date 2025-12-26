@@ -154,34 +154,8 @@ export default function About() {
                 </div>
               </li>
 
-              {/* Cognizant 
-              <li className="about-container p-4 border border-border rounded-lg flex gap-8 items-center max-md:flex-col">
-                <div className="about-image-content w-1/2 flex items-center justify-center">
-                  <img
-                    src={theme === "light" ? cognizantLogo : cognizantLogo}
-                    alt="GiantFocal Logo"
-                    className="cognizant-logo max-h-full w-2/4"
-                  />
-                </div>
-                <div className="about-text-content max-md:w-full">
-                  <h3 className="font-semibold text-xl">
-                    Web Developer @ Cognizant
-                  </h3>
-                  <p className=" mb-4">Oct 2025 – Present</p>
-                  <ul className="list-disc ml-5  space-y-1">
-                    <li>
-                      Worked with property management account through Cognizant as part of the Website Services team
-                    </li>
-                    <li>
-                      Provided ongoing website support and maintenance using the Duda platform, handling client requests such as content updates, image changes, and new page creation.
-                    </li>
-                    <li>
-                      Maintained and optimized property websites, ensuring accuracy, performance, and a positive user experience.
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              */}
+              {/* Cognizant */}
+              
             </ul>
           )}
 

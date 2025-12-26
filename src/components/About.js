@@ -154,7 +154,7 @@ export default function About() {
                 </div>
               </li>
 
-              {/* Cognizant */}
+              {/* Cognizant 
               <li className="about-container p-4 border border-border rounded-lg flex gap-8 items-center max-md:flex-col">
                 <div className="about-image-content w-1/2 flex items-center justify-center">
                   <img
@@ -181,6 +181,7 @@ export default function About() {
                   </ul>
                 </div>
               </li>
+              */}
             </ul>
           )}
 

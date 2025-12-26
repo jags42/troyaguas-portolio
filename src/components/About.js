@@ -6,7 +6,7 @@ import giantfocalLogo from "../assets/gf-logo-white.webp";
 import mapuaLogo from "../assets/mapua.png";
 import avionLogo from "../assets/avion-logo.svg";
 import giantfocalLogoDark from "../assets/giantfocal-dark.svg";
-import cognizantLogo from "../assets/cognizant-logo.png";
+
 
 export default function About() {
   const [activeTab, setActiveTab] = useState("experience");

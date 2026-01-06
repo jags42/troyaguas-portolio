@@ -136,7 +136,7 @@ export default function About() {
                   <h3 className="font-semibold text-xl">
                     Jr. Frontend Developer @ GiantFocal
                   </h3>
-                  <p className=" mb-4">Jul 2024 – Sep 2025</p>
+                  <p className=" mb-4">Jul 2024 – Present</p>
                   <ul className="list-disc ml-5  space-y-1">
                     <li>
                       Built and customized responsive themes for clients on

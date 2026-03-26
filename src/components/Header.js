@@ -41,7 +41,8 @@ export default function Header() {
         {/* Nav links */}
         <div className="flex gap-6">
           <a href="#about">About</a>
-          <a href="#projects">Projects</a>
+          <a href="#projects">Development</a>
+          <a href="#designs">Designs</a>
           <a href="#contact">Contact</a>
         </div>
 

@@ -5,6 +5,7 @@ import aslanImage from "../assets/aslan-image.png";
 import xpressImage from "../assets/xpress-image.png";
 import avionBank from "../assets/avionbank-image.png";
 import avionChat from "../assets/avion-chat.png";
+import dunnReport from "../assets/the-dunn-report-thumb.png";
 
 export default function Projects() {
   return (
@@ -13,6 +14,42 @@ export default function Projects() {
         <h2 className="text-4xl font-bold text-center mb-12">Front End Projects<span className="highlight-color">.</span></h2>
 
         <div className="grid grid-cols-1 gap-10">
+          {/* Dunn Report */}
+          <a
+            href="https://www.figma.com/proto/Z2wLETFvSgtJxZYbWMFKrL/The-Dunn-Report?node-id=5001-1367&t=GXMsQOoCOx2RI3UQ-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A98"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <div className="bg-primary background-light border border-border rounded-lg shadow-md hover:-translate-y-1 hover:shadow-xl transition cursor-pointer">
+              <div className="project-content flex gap-8 max-md:flex-col">
+                <div className="project-image max-md:w-full">
+                  <img
+                    src={dunnReport}
+                    alt="AvionBank Screenshot"
+                    className="h-full w-full object-cover object-left rounded-md shadow-md  block"
+                  />
+                </div>
+
+                <div className="project-text p-6 max-md:w-full">
+                  <h3 className="text-2xl font-semibold mb-3">The Dunn Report</h3>
+                  <p className="mb-4  ">
+                    Developed a modern, data-driven commercial real estate website for The Dunn Report, a platform focused on multifamily market intelligence and investment insights. Built the website in Webflow with a strong emphasis on clean typography, premium visual design, and user-focused navigation tailored for institutional investors and real estate professionals.
+                  </p>
+                  <ul className="list-disc ml-5   mb-4 space-y-1">
+                    <li>Developed a fully responsive website in Webflow with a modern, editorial-style layout</li>
+                    <li>Created a clean and professional UI aligned with the client’s real estate brand identity</li>
+                    <li>Structured content to highlight market intelligence, newsletters, podcasts, and investment insights</li>
+                    <li>Integrated Beehiiv newsletter signup forms to streamline email subscriptions and audience growth</li>
+                  </ul>
+                  <p className=" ">
+                    <span className="font-semibold">Tech Stack:</span> Webflow, Figma, Beehiiv
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+
           {/* Mindgrasp */}
           <a href="https://www.mindgrasp.ai/"
             target="_blank"

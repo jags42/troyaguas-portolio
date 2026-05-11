@@ -16,7 +16,7 @@ export default function Projects() {
         <div className="grid grid-cols-1 gap-10">
           {/* Dunn Report */}
           <a
-            href="https://www.figma.com/proto/Z2wLETFvSgtJxZYbWMFKrL/The-Dunn-Report?node-id=5001-1367&t=GXMsQOoCOx2RI3UQ-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A98"
+            href="https://www.adamdunncre.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="block"

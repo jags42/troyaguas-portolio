@@ -5,6 +5,8 @@ import movoPlanner from "../assets/movomediaplanner-thumb.png";
 import precisionChiro from "../assets/precision-chiropract-thumb.png";
 import dunnReport from "../assets/the-dunn-report-thumb.png";
 import cpaImage from "../assets/cpa-thumb.png";
+import blphImage from "../assets/blph.png";
+import webstudioImage from "../assets/webstudio.png";
 
 export default function Projects() {
   return (
@@ -13,7 +15,85 @@ export default function Projects() {
         <h2 className="text-4xl font-bold text-center mb-12">Design Projects<span className="highlight-color">.</span></h2>
 
         <div className="grid grid-cols-1 gap-10">
-          {/* Mindgrasp */}
+
+
+          {/* Web Studio*/}
+          <a href="https://www.figma.com/proto/vmstcCeM2t7xezDGBHBiDP/MoVO-Web-Studio?t=e9AdUBzlSmuPc0Mn-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=0-1&fuid=1337924163329128655"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <div className="bg-primary background-light border border-border rounded-lg shadow-md hover:-translate-y-1 hover:shadow-xl transition cursor-pointer">
+              <div className="project-content flex gap-8 max-md:flex-col">
+                <div className="project-image w-1/4 max-md:w-full">
+                  <img
+                    src={webstudioImage}
+                    alt="Mindgrasp Migration Project Screenshot"
+                    className="h-full w-full object-cover rounded-md shadow-md  block"
+                  />
+                </div>
+
+                <div className="project-text p-6 w-3/4 max-md:w-full">
+                  <h3 className="text-2xl font-semibold mb-3">MoVO Web Studio</h3>
+
+                  <p className="mb-4">
+                    Designed the MoVO Web Studio website to promote professional web design services for CRE businesses, focusing on lead generation, service clarity, and conversion.
+                  </p>
+
+                  <ul className="list-disc ml-5 mb-4 space-y-1">
+                    <li>Created a modern, responsive landing page design in Figma.</li>
+                    <li>Improved content flow to guide users toward booking a strategy call.</li>
+                    <li>Used trust-building elements such as client results, service highlights, and clear pricing.</li>
+                  </ul>
+
+                  <p>
+                    <span className="font-semibold">Tech Stack:</span> Figma, UI/UX Design, Wireframing, Prototyping, Responsive Design
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          {/* BLPH */}
+          <a href="https://www.figma.com/proto/iAlqrre4yGNMSFwi4FTE7w/BLPH?node-id=186-2&t=WGy3AYwitTlfKAV5-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <div className="bg-primary background-light border border-border rounded-lg shadow-md hover:-translate-y-1 hover:shadow-xl transition cursor-pointer">
+              <div className="project-content flex gap-8 max-md:flex-col">
+                <div className="project-image w-1/4 max-md:w-full">
+                  <img
+                    src={blphImage}
+                    alt="Mindgrasp Migration Project Screenshot"
+                    className="h-full w-full object-cover rounded-md shadow-md  block"
+                  />
+                </div>
+
+                <div className="project-text p-6 w-3/4 max-md:w-full">
+                  <h3 className="text-2xl font-semibold mb-3">BLPH Website Redesign</h3>
+
+                  <p className="mb-4">
+                    Redesigned the BLPH website in Figma to modernize its online presence and improve lead generation for loan and financing services.
+                  </p>
+
+                  <ul className="list-disc ml-5 mb-4 space-y-1">
+                    <li>Created a modern and user-friendly UI/UX design.</li>
+                    <li>Improved site structure and content organization.</li>
+                    <li>Designed conversion-focused landing page sections and CTAs.</li>
+                    <li>Developed responsive layouts for desktop and mobile.</li>
+                    <li>Added trust-building elements to enhance credibility.</li>
+                  </ul>
+
+                  <p>
+                    <span className="font-semibold">Tech Stack:</span> Figma, UI/UX Design, Wireframing, Prototyping, Responsive Design
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          {/* CRM */}
           <a href="https://www.figma.com/proto/Z0XhcZRF77hQqAnAEzAtYD/Castaneda-CPA---Associates--Sample-Revamp---Copy-?node-id=3001-2&p=f&t=xk6s7ovbbxZFh1cz-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A98"
             target="_blank"
             rel="noopener noreferrer"
@@ -40,14 +120,14 @@ export default function Projects() {
                     <li>Contributed to full website migration and implementation aligned with updated branding.</li>
                   </ul>
                   <p className="">
-                    <span className="font-  ">Tech Stack:</span> Figma, WordPress (Elementor), HTML, CSS, JavaScript  
+                    <span className="font-  ">Tech Stack:</span> Figma, WordPress (Elementor), HTML, CSS, JavaScript
                   </p>
                 </div>
               </div>
             </div>
           </a>
 
-          {/* ASLAN */}
+          {/* MoVO-Media-Planner */}
           <a
             href="https://www.figma.com/proto/cfPGHPcg2IZUovrvjlTJod/MoVO-Media-Planner-Revamp?node-id=1-915&t=mf6Hl0FA3n9iNNVU-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A98"
             target="_blank"
@@ -82,7 +162,7 @@ export default function Projects() {
             </div>
           </a>
 
-          {/* Xpress Website */}
+          {/* Precision Chiro */}
           <a
             href="https://www.figma.com/proto/nVIcPMjaXNDwC9ijfg9RMV/Precision-Chiropract?node-id=3002-5&t=GXMsQOoCOx2RI3UQ-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A98"
             target="_blank"
@@ -102,7 +182,7 @@ export default function Projects() {
                 <div className="project-text p-6 max-md:w-full">
                   <h3 className="text-2xl font-semibold mb-3">Precision Chiropractor</h3>
                   <p className="mb-4  ">
-                   Redesigned the website based on client requirements, focusing on improving visual appeal, user experience, and modernizing the overall look.
+                    Redesigned the website based on client requirements, focusing on improving visual appeal, user experience, and modernizing the overall look.
                   </p>
                   <ul className="list-disc ml-5   mb-4 space-y-1">
                     <li>Created a full website redesign in Figma aligned with client goals and branding.</li>
@@ -117,7 +197,7 @@ export default function Projects() {
             </div>
           </a>
 
-          {/* AvionBank */}
+          {/* Dunn Report */}
           <a
             href="https://www.figma.com/proto/Z2wLETFvSgtJxZYbWMFKrL/The-Dunn-Report?node-id=5001-1367&t=GXMsQOoCOx2RI3UQ-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A98"
             target="_blank"
@@ -137,7 +217,7 @@ export default function Projects() {
                 <div className="project-text p-6 max-md:w-full">
                   <h3 className="text-2xl font-semibold mb-3">The Dunn Report</h3>
                   <p className="mb-4  ">
-                  Designed a data-driven website experience for a real estate insights platform targeting institutional investors and industry professionals.
+                    Designed a data-driven website experience for a real estate insights platform targeting institutional investors and industry professionals.
                   </p>
                   <ul className="list-disc ml-5   mb-4 space-y-1">
                     <li>Created two homepage design concepts in Figma to explore typography, color palette, and visual direction.</li>
@@ -152,7 +232,7 @@ export default function Projects() {
             </div>
           </a>
 
-          {/* Avionchat */}
+          {/* Castaneda CPA */}
           <a
             href="https://www.figma.com/proto/Z0XhcZRF77hQqAnAEzAtYD/Castaneda-CPA---Associates--Sample-Revamp---Copy-?node-id=3001-2"
             target="_blank"

@@ -91,3 +91,10 @@ body[data-theme="light"] .text-lightmode {
 .mode-toggle:hover {
   border-color: #62eac3;
 }
+
+/* Header */
+@media (max-width: 768px) {
+  .design-tab {
+    display: none;
+  }
+}
